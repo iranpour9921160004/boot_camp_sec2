@@ -1,0 +1,82 @@
+
+p{
+    background-color: blue;
+}
+
+article{
+    font-size: 24px;
+}
+
+#name{
+    background-color: yellow;
+}
+
+#para{
+    color: orange;
+}
+.par{
+    color: white;
+}
+
+a[href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity"]{
+    font-size: 40px;
+}
+a:hover {
+    color: red;
+}
+a:visited{
+    color: pink;
+}
+/*a:focus{
+    color: pink;
+}
+a:active{
+    color: pink;
+}*/
+
+/*p:first-child{
+    font-size: 60px;
+}
+section>p{
+    font-weight: bold;
+}*/
+
+li[class]{
+    font-size: 30px;
+}
+li[class="a"]{
+    color: aqua;
+}
+li[class ~= 'a']{
+    color: red;
+}
+li[class^='a']{
+    color: green;
+}
+li[class $= 'c' ]{
+    font-size: 50px;
+}
+li[class*='a']{
+    color: yellowgreen;
+}
+li:only-child{
+    font-size: 40px;
+}
+input:invalid{
+    background-color: red;
+}
+p:last-of-type{
+    background-color: black;
+}
+
+li:last-of-type{
+    color: yellow;
+}
+
+p::first-line{
+    color: #ff0000;
+}
+
+article p:first-child::first-line{
+    color: #00ff00;
+}
